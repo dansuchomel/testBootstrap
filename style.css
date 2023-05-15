@@ -11,7 +11,7 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: left; /* otázka 10*/
   background-image: url("./images/landscape.jpg");
 }
 
@@ -30,29 +30,29 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;/* otázka 9*/
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px 25px; /* otázka 8*/
   text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left;/* otázka 9*/
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #ddd; 
   color: black;
 }
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: rgb(252, 249, 249); /* otázka 7*/
+  color: rgb(3, 3, 3);/* otázka 7*/
 }
 
 /* Column container */
@@ -64,8 +64,9 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #0a0909; /* otázka 6*/
   padding: 20px;
+  color:antiquewhite /* otázka 6 */
 }
 
 /* Main column */
@@ -77,15 +78,16 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 50px; /* otázka 5*/
   background: #474747;
+
 }
 
 /* Center the text */
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color: #08f372; /* otázka 4 */
 }
 
 /* Basic styles for the post */
